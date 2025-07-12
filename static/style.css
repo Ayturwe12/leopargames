@@ -1,0 +1,126 @@
+body {
+  font-family: 'Rubik', sans-serif;
+  background: linear-gradient(to bottom,#c1eff7, #003e80);
+}
+
+.logo-container {
+  background: #34c6eb;
+  padding: 10px;
+  width: 250px;
+
+  max-width: 90%;
+  flex-wrap: wrap;
+
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  margin-left: 80px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  transition: transform 0.2s;
+  display: flex;
+  align-items: center;
+}
+
+.logo-container img {
+  height: 60px;
+  border-radius: 50%;
+}
+
+.logo-container:hover {
+  transform: scale(1.05);
+}
+.logo-container span {
+    color: white;
+    font-family:cursive;
+    font-size: 24px;
+    margin-left:10px;
+
+}
+.games-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start ;
+  gap: 1px;
+
+
+}
+
+.game-card {
+  flex: 1 0 100px;
+  max-width: 100px;
+  height: auto;
+  aspect-ratio: 1/1;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  border-color: black;
+
+  margin: 15px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+
+
+
+
+}
+@media (max-width: 600px) {
+  .game-card {
+    flex:1 0 20%;
+    max-width: 100%;
+  }
+  .logo-container {
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+  }
+}
+
+.game-card:hover {
+  transform: scale(1.05);
+}
+
+.game-card img {
+
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.footer {
+  background-color: #011e4a;         /* Koyu arka plan */
+  color: #eee;                    /* Açık renk yazı */
+  padding: 15px 0;
+  text-align: center;
+  font-size: 14px;
+  position: fixed;                /* Sayfanın altında sabit kalır */
+  bottom: 0;
+  text-align: right;
+  right: 0;
+
+
+  box-shadow: 0 -2px 5px rgba(0,0,0,0.3);
+  z-index: 1000;
+}
+
+.footer a {
+  color: #4db8ff;                 /* Mavi tonlarda link */
+  text-decoration: none;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+
+  display: inline;
+
+}
+
+.footer a:hover {
+  color: #fff;                   /* Üzerine gelince beyaz olsun */
+  text-decoration: underline;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Leopar Games</title>
+
+
+    <div class="logo-container" title="Logo">
+        <a href="/">
+        <img src="{{ url_for('static', filename='logo.png') }}" alt="Logo">
+
+        <span>Leopar Games</span>
+            </a>
+    </div>
+
+
+
+
+
+</head>
+<body style="background-color:powderblue;">
+
+
+<div class="games-container">
+{% for directory_name in directories %}
+    <div class="game-card" title="{{ directory_name }}">
+        <a target="_blank" href="{{ url_for('gameweb', game_name=directory_name) }}">
+            <img src="{{ url_for('static', filename=directory_name + '/' + directory_name + '.png') }}" alt="{{ directory_name }}">
+        </a>
+    </div>
+{% endfor %}
+</div>
+
+<div class="footer">
+<a href="{{ url_for('privacy') }}">Privacy Policy</a>
+    <a href="{{ url_for('contact') }}">Contact</a>
+    </div>
+
+
+</body>
+</html>
