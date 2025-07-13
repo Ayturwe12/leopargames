@@ -6,15 +6,17 @@
     <title>Game Page</title>
 
 
-    <div class="logo-container" title="Logo">
+
+</head>
+<body>
+
+<div class="logo-container" title="Logo">
         <a href="/">
         <img src="{{ url_for('static', filename='logo.png') }}" alt="Logo">
         <span>Leopar Games</span>
             </a>
     </div>
 
-</head>
-<body>
 <div class="game-page-layout">
     <div class="game-iframe">
         {% if iframe_url %}

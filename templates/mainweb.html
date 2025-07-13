@@ -17,21 +17,19 @@
 
 
 
-    <div class="logo-container" title="Logo">
-        <a href="/">
-        <img src="{{ url_for('static', filename='logo.png') }}" alt="Logo">
-
-        <span>Leopar Games</span>
-            </a>
-    </div>
-
-
 
 
 
 </head>
 <body style="background-color:powderblue;">
 
+ <div class="logo-container" title="Logo">
+        <a href="/">
+        <img src="{{ url_for('static', filename='logo.png') }}" alt="Logo">
+
+        <span>Leopar Games</span>
+            </a>
+    </div>
 
 <div class="games-container">
 {% for directory_name in directories %}
