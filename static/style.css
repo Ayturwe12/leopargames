@@ -99,12 +99,12 @@ a {
 }
 
 .footer {
-  background-color: #011e4a;         /* Koyu arka plan */
-  color: #eee;                    /* Açık renk yazı */
+  background-color: #011e4a;
+  color: #eee;
   padding: 15px 0;
   text-align: center;
   font-size: 14px;
-  position: fixed;                /* Sayfanın altında sabit kalır */
+  position: fixed;
   bottom: 0;
   text-align: right;
   right: 0;
@@ -115,7 +115,7 @@ a {
 }
 
 .footer a {
-  color: #4db8ff;                 /* Mavi tonlarda link */
+  color: #4db8ff;
   text-decoration: none;
   margin: 0 10px;
   transition: color 0.3s ease;
@@ -125,7 +125,7 @@ a {
 }
 
 .footer a:hover {
-  color: #fff;                   /* Üzerine gelince beyaz olsun */
+  color: #fff;
   text-decoration: underline;
 }
 
