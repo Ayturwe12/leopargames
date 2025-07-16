@@ -197,4 +197,8 @@ a {
   color: #fff;                   /* Üzerine gelince beyaz olsun */
   text-decoration: underline;
 }
-
+.madeby  {
+  font-family: cursive;
+  color: #fff;
+  margin-left: 15px;
+}
