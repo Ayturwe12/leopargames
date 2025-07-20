@@ -137,7 +137,7 @@ iframe {
   border-radius: 8px;
   margin: 0;
 }
-@media (max-width: 1000px) {
+@media (max-width: 1300px) {
   .game-card {
     flex:1 0 20%;
     max-width: 100%;
@@ -154,6 +154,8 @@ iframe {
   }
   .game-page-layout {
     flex-direction: column;
+    margin-right: 40px;
+
   }
   .fullscreen {
     margin-left: auto;
