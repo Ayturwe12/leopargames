@@ -141,6 +141,14 @@ iframe {
   .game-card {
     flex:1 0 20%;
     max-width: 100%;
+    width: 90%;
+
+
+  }
+  .game-card img {
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    width: 100%;
 
   }
   .logo-container {
@@ -148,13 +156,19 @@ iframe {
     margin-right: auto;
     justify-content: center;
   }
+
+  .game-page-layout {
+    flex-direction: column;
+
+
+  }
   .game-iframe {
     flex:1 0 50%;
     max-width: 100%;
-  }
-  .game-page-layout {
-    flex-direction: column;
-    margin-right: 40px;
+    margin: 0;
+    margin-top: 10px;
+    padding: 0;
+    box-sizing: border-box;
 
   }
   .fullscreen {
@@ -203,4 +217,21 @@ a {
   font-family: cursive;
   color: #fff;
   margin-left: 15px;
+}
+
+@media (max-width: 350px) {
+  .game-card {
+    flex:0 0 45%;
+    max-width: 100%;
+    width: 100%;
+    margin:10px auto;
+    gap: 20px;
+
+  }
+  .game-card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+  }
 }
