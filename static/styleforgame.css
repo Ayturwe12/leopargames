@@ -34,6 +34,7 @@ body {
 
 }
 
+
 .fullscreen {
   background-color:#00527a;
   padding: 15px;
@@ -58,12 +59,59 @@ body {
     display: inline-block;
 
 }
+.description {
+  background-color:#00527a;
+  padding: 15px;
+  width: 200px;
+  height: 500px;
+  border-radius: 10px;
+  border-color: black;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+  overflow: auto;
+
+
+  display: flex;
+
+}
+.description pre {
+  color: darkgrey;
+  font-family: inherit;
+  font-size: large;
+  margin:  6px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  flex:1;
+}
+.description img {
+  object-fit: cover;
+  aspect-ratio: 1/1;
+  height: 200px;
+  display: flex;
+}
+.side-panel{
+  display: flex;
+  flex-direction: column;
+
+}
+.img-and-desc {
+  display: flex;
+  flex-direction: column;
+
+}
+.img-and-desc img {
+  aspect-ratio: 1/1;
+  border-radius: 10px;
+}
 a {
   text-decoration: none;
   display: flex;
   align-items: center;
 
 }
+
 .game-page-layout {
   display: flex;
   gap: 20px;
@@ -74,7 +122,7 @@ a {
   padding: 10px;
 }
 .game-iframe {
-
+  flex: 1;
   max-width: 1000px;
   padding: 20px;
   flex-shrink: 0;
@@ -176,6 +224,22 @@ iframe {
     margin-right: auto;
     justify-content: center;
   }
+    .side-panel {
+    display: flex;
+      width: 100%;
+    flex-wrap: wrap;
+    justify-content: center ;
+    align-items: center;
+
+  }
+
+
+  .description,
+  .fullscreen {
+    width: fit-content;
+    max-width: 100%;
+    margin: 10px auto;
+  }
 }
 
 
@@ -234,4 +298,17 @@ a {
     object-fit: cover;
     display: block;
   }
+  .side-panel {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center ;
+    align-items: center;
+  }
+
+.description,
+.fullscreen {
+  width: fit-content;
+  max-width: 100%;
+  margin: 10px auto;
+}
 }

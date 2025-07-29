@@ -1,0 +1,1 @@
+2048 Cupcakes is a free extension that allows you to play the classic puzzle game 2048 with a cupcake theme. The extension is simple to use: just install it from the Chrome Web Store and you'll be able to play 2048 Cupcakes in any tab. 2048 is a game where you merge tiles to create a tile with the number 2048.

@@ -1,0 +1,8 @@
+Cut the Rope is a delightful physics-based puzzle game where you help a cute little monster named Om Nom get his candy. Cut ropes strategically to feed the candy while collecting stars and avoiding obstacles.
+
+🍬 Objective: Cut ropes to deliver candy to Om Nom.
+🎮 How to Play: Use timing and logic to cut ropes in the right order.
+🔥 Tip: Plan your cuts to collect all stars and solve puzzles efficiently!
+
+Enjoy charming puzzles and fun challenges in Cut the Rope!
+

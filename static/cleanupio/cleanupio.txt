@@ -1,0 +1,8 @@
+CleanUp.io is an addictive multiplayer game where you control a cell and compete to consume smaller cells while avoiding being eaten by bigger ones. Grow by eating, dodge enemies, and become the biggest cell on the map!
+
+🧽 Objective: Eat smaller cells to grow and dominate the leaderboard.
+🎮 How to Play: Move your cell strategically and avoid larger opponents.
+🔥 Tip: Use speed boosts and smart maneuvers to survive longer!
+
+Get ready for fast-paced, competitive fun in CleanUp.io!
+

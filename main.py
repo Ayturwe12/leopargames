@@ -28,7 +28,16 @@ def gameweb(game_name):
 
     iframe_url = iframe_links.get(game_name)
 
-    return render_template('gameweb.html', iframe_url=iframe_url,directories=directories)
+    txt_url = os.path.join('static',game_name ,game_name + '.txt')
+    image_url = url_for('static', filename=game_name + '/' + game_name + '.png')
+
+    try:
+        with open(txt_url,'r', encoding="utf-8") as f:
+            aciklama= f.read()
+    except:
+        aciklama="Couldn't find the description."
+    return render_template('gameweb.html',
+                           iframe_url=iframe_url,directories=directories,aciklama=aciklama,image_url=image_url,game_name=game_name)
 
 @app.route("/game/<game_name>/fullscreen")
 def fullscreen(game_name):
