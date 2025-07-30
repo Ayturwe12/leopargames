@@ -1,0 +1,15 @@
+Gunspin is a chaotic, fast-paced shooter where players battle on a spinning circular platform, trying to knock each other off using a variety of firearms and explosives.
+
+🎯 Objective: Knock opponents off the spinning platform to win.
+🎮 How to Play: Use keyboard controls to move, aim, and shoot while managing the rotating arena.
+💡 Tip: Use the platform’s spin to your advantage and time your shots carefully to dominate the fight.
+
+
+
+
+
+
+
+
+
+Ask ChatGPT

@@ -36,10 +36,10 @@ body {
 
 
 .fullscreen {
-  background-color:#00527a;
+  background-color:#FF5722;
   padding: 15px;
   width: 200px;
-  border-radius: 10px;
+  border-radius: 100px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
   margin-top: 20px;
 
@@ -48,6 +48,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+
 
 }
 .fullscreen:hover {

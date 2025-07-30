@@ -1,0 +1,15 @@
+Gymstack is a fast-paced, skill-based game where players stack moving blocks to build the tallest tower possible without letting it collapse.
+
+🎯 Objective: Stack blocks precisely to create a stable and tall tower.
+🎮 How to Play: Tap or click to drop blocks at the right moment as they move horizontally.
+💡 Tip: Focus on timing and accuracy to avoid misaligned blocks that can destabilize your tower.
+
+
+
+
+
+
+
+
+
+Ask ChatGPT

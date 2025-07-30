@@ -1,0 +1,11 @@
+Happy Wheels is a ragdoll physics-based platformer game where players navigate through hazardous obstacle courses using a variety of vehicles, aiming to reach the finish line while avoiding deadly traps.
+
+🎯 Objective: Complete levels by overcoming obstacles and hazards without crashing.
+🎮 How to Play: Use keyboard controls to steer, accelerate, brake, and perform stunts with different vehicles.
+💡 Tip: Practice timing and control to avoid traps and survive challenging terrain.
+
+Keywords: Happy Wheels gameplay, ragdoll physics, obstacle course, vehicle game, platformer, stunt driving.
+
+
+
+

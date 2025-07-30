@@ -1,0 +1,7 @@
+GunNight is a fast-paced, action-packed multiplayer shooter with pixel-art graphics where players fight in dynamic arenas using various weapons and gadgets.
+
+🎯 Objective: Eliminate all opponents to be the last player alive.
+🎮 How to Play: Use keyboard controls to move, aim, shoot, and use special gadgets.
+💡 Tip: Master different weapons and use the environment strategically to outplay your rivals.
+
+If you enjoy quick reflexes and chaotic multiplayer battles, GunNight offers thrilling arena combat!

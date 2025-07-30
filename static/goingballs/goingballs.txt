@@ -1,0 +1,7 @@
+Going Balls is a fun and challenging physics-based obstacle course game where you control a rolling ball navigating through crazy tracks filled with jumps, loops, and traps. Test your timing and precision to reach the finish line without falling.
+
+⚽ Objective: Roll your ball through each level’s obstacles and reach the goal safely.
+🎮 How to Play: Use arrow keys or tilt controls to steer your ball and avoid falling.
+🔥 Tip: Stay balanced and time your moves carefully to overcome tricky parts!
+
+If you enjoy physics-based games and obstacle courses, Going Balls offers exciting and addictive gameplay!

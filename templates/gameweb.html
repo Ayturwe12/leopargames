@@ -20,7 +20,7 @@
 
 <div class="logo-container" title="Logo">
         <a href="/">
-        <img src="{{ url_for('static', filename='logo.png') }}" alt="Logo">
+        <img src="{{ url_for('static', filename='logo.png') }}" alt="Logo"  loading="lazy">
         <span>Leopar Games</span>
             </a>
     </div>
@@ -44,7 +44,7 @@
 
         <div class="description">
             <div class="img-and-desc">
-                <img src="{{image_url}}" title="{{game_name}}">
+                <img src="{{image_url}}" title="{{game_name}}"  loading="lazy">
                 <pre>{{aciklama}}</pre>
             </div>
 
@@ -54,7 +54,7 @@
 {% for directory_name in directories %}
     <div class="game-card" title="{{ directory_name }}">
         <a target="_blank" href="{{ url_for('gameweb', game_name=directory_name) }}">
-            <img src="{{ url_for('static', filename=directory_name + '/' + directory_name + '.png') }}" alt="{{ directory_name }}">
+            <img src="{{ url_for('static', filename=directory_name + '/' + directory_name + '.png') }}" alt="{{ directory_name }}" loading="lazy">
         </a>
     </div>
 {% endfor %}

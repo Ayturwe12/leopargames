@@ -1,0 +1,7 @@
+Happy Room is a physics-based sandbox game where players experiment with weapons and traps to test how much damage they can inflict on a crash test dummy in a controlled environment.
+
+🎯 Objective: Set up weapons and traps to maximize destruction on the test dummy.
+🎮 How to Play: Place various gadgets strategically, then trigger them to see the effects.
+💡 Tip: Combine different traps creatively to cause chain reactions and increase damage.
+
+Keywords: Happy Room gameplay, physics sandbox, destruction game, trap setup, crash test dummy, action puzzle.

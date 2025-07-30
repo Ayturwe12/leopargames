@@ -1,0 +1,7 @@
+Golf Orbit is a fun and challenging mini-golf game set in space where you aim to sink the ball into the hole while navigating through gravity fields and obstacles. Use precision and strategy to master each orbiting course.
+
+⛳ Objective: Complete each hole with the fewest strokes possible by aiming carefully.
+🎮 How to Play: Use mouse or touch controls to aim and adjust power, then shoot the ball.
+🌌 Tip: Consider gravitational pulls and obstacles when planning your shots!
+
+If you love mini-golf games and space-themed challenges, Golf Orbit offers unique and addictive gameplay with a cosmic twist!
